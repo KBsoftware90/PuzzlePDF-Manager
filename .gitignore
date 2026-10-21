@@ -1,0 +1,14 @@
+# Distribution repository: do not commit local packages, source or secrets.
+*.pem
+!update-public.pem
+*.key
+.env*
+*.run
+*.exe
+*.bin
+*.7z
+*.zip
+*.tar*
+github-assets/
+packages/
+publish/
